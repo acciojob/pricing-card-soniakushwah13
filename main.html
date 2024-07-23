@@ -3,11 +3,54 @@
 <html>
 
 <head>
+	<style>
+		body {
+			background-color: white;
+		}
+		#card {
+			margin: auto;
+			width: 50%;
+			text-align: center;
+			background-color: #f9f9f9;
+			padding: 40px;
+			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.1);
+			}
+		img {
+			width: 300px;
+		}
+		#title {
+		font-size: 50px;
+			margin: 9px
+		}
+		#price {
+			font-size: 30px;
+			margin:10;
+		}
+		#description {
+			font-size: 30px;
+			margin:10px;
+		}
+		#buy-Now {
+		    font-size: 30px;
+			padding: 10px;
+			background-color: red;
+			color: white;
+			border-radius: 10px;
+			
+		}
+	</style>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div id="card">
+		<img src="https://res.cloudinary.com/demo/image/upload/sample.jpg">
+		<b>
+		<h1 id="title">Pricing Card</h1>
+		<p id="price">Price: Rs.200</p>
+		<p id="description">Decrition: Lomer ipsum dolor sit amet, consectetur adiscing edit.</p>
+		<button id="buy-Now">Buy Now</button></b>
     <script type="text/javascript" src="./script.js">
 </script>
 
